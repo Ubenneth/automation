@@ -1,0 +1,6 @@
+from datetime import time
+from selenium import webdriver
+#driver_path = "C:/Users/Benneth Anyanwu/Desktop/chromedriver"
+Chrome = webdriver.Chrome()
+Chrome.get("https://youtube.com/")
+time.sleep(10)
